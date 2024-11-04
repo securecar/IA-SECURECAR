@@ -235,7 +235,7 @@ def enviar_pdf(id_conserto):
    
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
 
 # Exemplo de uso com valores presentes no dataset
 # problema = 'Barulho no motor'
